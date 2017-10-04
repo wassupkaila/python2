@@ -20,10 +20,10 @@ def main():
     while play_again:
         # set up the game loop
 
-        words = ["hangman", "chairs", "backpack", "bodywash", "clothing",
-                 "computer", "python", "program", "glasses", "sweatshirt",
-                 "sweatpants", "mattress", "friends", "clocks", "biology",
-                 "algebra", "suitcase", "knives", "ninjas", "shampoo"
+        words = ["gato", "sassy", "childish", "coolio", "instgram",
+                 "tacos", "korean", "wassup", "finesse", "sweatshirt",
+                 "sweatpants", "amigos", "friends", "clocks", "shoes",
+                 "algebra", "suitcase", "woofer", "meow", "doggo"
                  ]
 
         chosen_word = random.choice(words).lower()
